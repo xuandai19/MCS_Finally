@@ -1,0 +1,1 @@
+The init script creates one database per owning service. In a real deployment, use separate credentials and preferably separate database instances/roles per service. The local compose stack is for development only.

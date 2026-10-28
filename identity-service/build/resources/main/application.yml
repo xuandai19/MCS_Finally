@@ -1,0 +1,33 @@
+server:
+  port: ${SERVER_PORT:8081}
+spring:
+  application:
+    name: identity-service
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/identity_db}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:123456a@}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+eureka:
+  client:
+    enabled: ${EUREKA_ENABLED:false}
+    register-with-eureka: ${EUREKA_ENABLED:false}
+    fetch-registry: ${EUREKA_ENABLED:false}
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+security:
+  jwt:
+    secret: ${JWT_SECRET:local-development-secret-change-this-32-bytes-minimum}
+    access-ttl-seconds: ${JWT_ACCESS_TTL_SECONDS:900}

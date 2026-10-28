@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-gateway.main" options="-parameters" />
+      <module name="api-gateway.test" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="discovery-server.main" options="-parameters" />
+      <module name="discovery-server.test" options="-parameters" />
+      <module name="driver-service" options="-parameters" />
+      <module name="driver-service.main" options="-parameters" />
+      <module name="driver-service.test" options="-parameters" />
+      <module name="identity-service" options="-parameters" />
+      <module name="identity-service.main" options="-parameters" />
+      <module name="identity-service.test" options="-parameters" />
+      <module name="location-service" options="-parameters" />
+      <module name="location-service.main" options="-parameters" />
+      <module name="location-service.test" options="-parameters" />
+      <module name="payment-wallet-service" options="-parameters" />
+      <module name="payment-wallet-service.main" options="-parameters" />
+      <module name="payment-wallet-service.test" options="-parameters" />
+      <module name="pricing-service" options="-parameters" />
+      <module name="pricing-service.main" options="-parameters" />
+      <module name="pricing-service.test" options="-parameters" />
+      <module name="trip-service" options="-parameters" />
+      <module name="trip-service.main" options="-parameters" />
+      <module name="trip-service.test" options="-parameters" />
+    </option>
+  </component>
+</project>

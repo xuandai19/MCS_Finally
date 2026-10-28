@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/discovery-server" />
+    <file type="web" url="file://$PROJECT_DIR$/driver-service" />
+    <file type="web" url="file://$PROJECT_DIR$/identity-service" />
+    <file type="web" url="file://$PROJECT_DIR$/location-service" />
+    <file type="web" url="file://$PROJECT_DIR$/payment-wallet-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pricing-service" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-service" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
